@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Domine:wght@400..700&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap');
+
+.header-font,
+.sub-title {
+    color: rgb(185, 102, 12);
+}
+
+.header-font {
+    font-family: 'Croissant One';
+}
+
+.sub-title {
+    font-family: 'Domine';
+}
+
+.container-pad {
+    padding-left: 20px;
+}
+
+.space-top {
+    padding-top: 10px;
+}
+
+body, pre {
+    font-family: 'Host Grotesk';
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.left {
+    width: 20%;
+    margin-right: 30px;
+}
+
+.right {
+    width: 80%;
+    padding: 20px;
+}
+
+.primary-img {
+    width: 100%;
+    height: auto;
+    padding-left: 20px;
+}
+
+table {
+    width: auto;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+td, th {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+li a {
+    background-color: #f0f0f0;
+    color: black;
+    text-decoration: none;
+    padding: 15px 15px;
+    display: inline-block;
+    transition: background-color 0.3s;
+    margin: 5px;
+}
+
+li a:hover {
+    background-color: rgb(194, 145, 93);
+}
+
